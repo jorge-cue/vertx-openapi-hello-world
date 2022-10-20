@@ -1,4 +1,0 @@
-
-server:
-  instances: 4
-  port: 9000
