@@ -9,6 +9,6 @@ public class MainVerticle extends AbstractVerticle {
 
   @Override
   public void start(Promise<Void> startPromise) {
-    log.debug("Starting MainVerticle\nconfiguration:\n{}", config().encodePrettily());
+    log.debug("Starting MainVerticle, configuration:\n{}", config().encodePrettily());
   }
 }
